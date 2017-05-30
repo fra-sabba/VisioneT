@@ -1,21 +1,17 @@
 # VisioneT
-![logo](../img/logo.png) The web is changing our life style. Neverthless, the older people can't benefit from this technology because required new methods of interation that are not usual for them. To overcome this obstacle, we create **VisioneT**, a *new concept* of *Internet*. 
+<img align="left" src="/img/logo.png" width="70px">The web is changing our life style. Neverthless, the older people can't benefit from this technology because required new methods of interation that are not usual for them. To overcome this obstacle, we create **VisioneT**, a *new concept* of *Internet*. 
 
 ## Description
 **VisioneT** is an innovative *platform* that you can combine with every type of TV. It lets you *zapping* through web pages using a standard *remote control*. Each of these web pages is a *channel* created with contents selected from Internet depending on the user *profile*, his *emotions* and his *preferences*. In this way we developed a *modular* and *custom* system.
 
 ## Requirements
-### Hardware
-- [Raspberry Pi 3](https://www.amazon.com/dp/B01C6Q2GSY/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=1BLM6IHU3K1MA&coliid=I1WPZOVL411972)
-- [IBM TJBot](http://ibm.biz/mytjbot): You can 3D print or laser cut the robot
-- USB 2.0 microphone 
-- IR receiver
-- IR emitter
-### Software
-- [Raspbian Jessie](https://www.raspberrypi.org/downloads/raspbian/)
-- [Node RED](https://nodered.org/)
-- [LIRC](http://www.lirc.org/)
-- [IBM Watson](https://www.ibm.com/watson/developercloud/) services: Text To Speech, Speech To Text and Tone Analyzer
+| Hardware      | Software    |
+| :-------------: |:-------------:|
+| [Raspberry Pi 3](https://www.amazon.com/dp/B01C6Q2GSY/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=1BLM6IHU3K1MA&coliid=I1WPZOVL411972)<br>|[Raspbian Jessie](https://www.raspberrypi.org/downloads/raspbian/)|
+| [IBM TJBot](http://ibm.biz/mytjbot): <br>you can 3D print or laser cut the robot |[Node RED](https://nodered.org/)|   
+| USB 2.0 microphone | [LIRC](http://www.lirc.org/)|
+| IR receiver |[IBM Watson](https://www.ibm.com/watson/developercloud/) services: <br> Text To Speech, Speech To Text and Tone Analyzer|
+| IR emitter|
 
 ## Setup Prototype
 ### Step 0 Prepare Raspberry/TJBot
