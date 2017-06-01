@@ -9,7 +9,7 @@ This picture shows the platform layout that was realized and tested.
 
 <img align="center" src="/layout/platform-layout.jpg" width="600px">
 
-The Raspberry/TJBot is connected to the TV with an HDMI cable and It is placed near the monitor. An IR transmitter (**1**) and an IR receiver (**2**) are wired to the Raspberry/TJBot. The *remote control* of the *TV* is *put aside* and an *another standard remote control is taken* (**3**, we called It *VisioneT controller*). The commands from the *VisioneT controller* are received by the Raspberry/TJBot and It makes a choose:
+The Raspberry/TJBot is connected to the TV with an HDMI cable and It is placed near the monitor. An IR transmitter (**1**) and an IR receiver (**2**) are wired to the Raspberry/TJBot. The *remote control* of the *TV* is *put aside* and an *another standard remote control is taken* (**3**, we called It *VisioneT controller*). The commands from the *VisioneT controller* are received by the Raspberry/TJBot that makes a choose:
 -	**If the VisioneT system is OFF**, the commands are transmitted to the TV by the IR transmitter, so you can *control* the *TV* as *usual* (If TV has the support for the CEC protocol, the commands could be sent through the HDMI cable, but this instance is not implemented now);
 -	**If the VisioneT system is ON**, the commands are not transmitted to the TV and they are used to *control* the *system* and *zap* trough the *VisioneT’s channels*.
 
